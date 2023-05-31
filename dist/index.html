@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Vite App</title>
+  <script type="module" crossorigin src="/assets/index-26728d07.js"></script>
+  <link rel="stylesheet" href="/assets/index-56770b7c.css">
+</head>
+
+<body>
+	<!-- top nav -->
+	<nav class="bg-[var(--black)] sticky top-0 text-white">
+		<div class="flex justify-between items-center h-[var(--topNav)] px-[16px]">
+			<a href="#">Logo</a>
+			<div class="flex items-center">
+				<button class="px-[12px]">
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="25"
+						height="25" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none"
+						stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+						<path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+						<path d="M21 21l-6 -6"></path>
+					</svg>
+				</button>
+				<button class="px-[12px]">
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-help-circle" width="25"
+						height="25" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none"
+						stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+						<path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path>
+						<path d="M12 16v.01"></path>
+						<path d="M12 13a2 2 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483"></path>
+					</svg>
+				</button>
+				<button class="px-[12px]">
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bell" width="25"
+						height="25" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none"
+						stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+						<path
+							d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6">
+						</path>
+						<path d="M9 17v1a3 3 0 0 0 6 0v-1"></path>
+					</svg>
+				</button>
+				<div class="flex items-center gap-2 px-[12px]">
+					<div class="bg-slate-300 w-8 h-8 rounded-full"></div>
+					<p class="">Username</p>
+				</div>
+				<button class="px-[12px]">
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="25"
+						height="25" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none"
+						stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+						<path d="M4 5h7"></path>
+						<path d="M9 3v2c0 4.418 -2.239 8 -5 8"></path>
+						<path d="M5 9c0 2.144 2.952 3.908 6.7 4"></path>
+						<path d="M12 20l4 -9l4 9"></path>
+						<path d="M19.1 18h-6.2"></path>
+					</svg>
+				</button>
+			</div>
+		</div>
+	</nav>
+	<!-- main section -->
+	<div class="flex">
+		<!-- aside -->
+		<aside
+			class="bg-white text-[14px] font-sans font-medium w-[var(--aside)] h-[calc(100%-var(--topNavM))] top-[var(--topNav)] fixed flex flex-col justify-between">
+			<ul class="">
+				<li>
+					<a href="#"
+						class="flex justify-between items-center py-3 border-r-2 border-transparent hover:border-[var(--borderColor)] px-3 hover:bg-[#E7E7E7]">
+						<div class="flex items-center gap-2">
+							<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dashboard"
+								width="20" height="20" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor"
+								fill="none" stroke-linecap="round" stroke-linejoin="round">
+								<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+								<path d="M12 13m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+								<path d="M13.45 11.55l2.05 -2.05"></path>
+								<path d="M6.4 20a9 9 0 1 1 11.2 0z"></path>
+							</svg>
+							<p>Dashbaord</p>
+						</div>
+						<svg xmlns="http://www.w3.org/2000/svg" class="" width="20" height="20" viewBox="0 0 24 24"
+							stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+							stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+							<path d="M6 15l6 -6l6 6"></path>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="#"
+						class="flex justify-between items-center py-3 border-r-2 border-transparent hover:border-[var(--borderColor)] px-[40px] hover:bg-[var(--hoverBlack)]">Analysis</a>
+				</li>
+				<li>
+					<a href="#"
+						class="flex justify-between items-center py-3 border-r-2 border-transparent hover:border-[var(--borderColor)] px-[40px] hover:bg-[var(--hoverBlack)]">Monitor</a>
+				</li>
+				<li>
+					<a href="#"
+						class="flex justify-between items-center py-3 border-r-2 border-transparent hover:border-[var(--borderColor)] px-[40px] hover:bg-[var(--hoverBlack)]">Workplace</a>
+				</li>
+				<li>
+					<a href="#"
+						class="flex justify-between items-center py-3 border-r-2 border-transparent hover:border-[var(--borderColor)] px-3 hover:bg-[var(--hoverBlack)]">
+						<div class="flex items-center gap-2">
+							<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="20"
+								height="20" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none"
+								stroke-linecap="round" stroke-linejoin="round">
+								<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+								<path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+								<path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+							</svg>
+							<p>Account</p>
+						</div>
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down"
+							width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+							fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+							<path d="M6 9l6 6l6 -6"></path>
+						</svg>
+
+					</a>
+				</li>
+			</ul>
+			<div class="fixed w-[var(--aside)] bottom-0 h-[var(--asideFooter)] border-t flex items-center px-4">
+				<button class="">
+					<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" width="36" height="36" viewBox="0 0 24 24"
+						stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round"
+						stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+						<path d="M20 6l-11 0"></path>
+						<path d="M20 12l-7 0"></path>
+						<path d="M20 18l-11 0"></path>
+						<path d="M4 8l4 4l-4 4"></path>
+					</svg>
+				</button>
+			</div>
+		</aside>
+
+		<main class="pl-[var(--aside)] w-full">
+			<div class="">
+				<div class="p-5 grid grid-cols-4 gap-5">
+					<div class="col-span-1 bg-white p-5">
+						<div class="flex justify-between items-center">
+							<p class="text-[14px]">Domains</p>
+							<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-info-circle"
+								width="26" height="26" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor"
+								fill="none" stroke-linecap="round" stroke-linejoin="round">
+								<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+								<path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path>
+								<path d="M12 9h.01"></path>
+								<path d="M11 12h1v4h1"></path>
+							</svg>
+						</div>
+
+						<div class="flex justify-between items-center">
+							<h2 class="text-[40px] font-medium">33</h2>
+							<h2 class="text-[19px] font-medium">Active</h2>
+						</div>
+						<div class="flex justify-between items-center">
+							<h2 class="text-[40px] font-medium">233</h2>
+							<h2 class="text-[19px] font-medium">Inactive</h2>
+						</div>
+					</div>
+					<div class="col-span-1 bg-white p-5">
+						<div class="flex justify-between items-center">
+							<p class="text-[14px]">Counts</p>
+							<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-info-circle"
+								width="26" height="26" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor"
+								fill="none" stroke-linecap="round" stroke-linejoin="round">
+								<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+								<path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path>
+								<path d="M12 9h.01"></path>
+								<path d="M11 12h1v4h1"></path>
+							</svg>
+						</div>
+						<div id="semiChart"></div>
+					</div>
+					<div class="col-span-2 bg-white p-5">
+						<div class="grid gap-5">
+							<div class="flex justify-between items-center">
+								<p class="text-[14px]">Domains</p>
+								<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-info-circle"
+									width="26" height="26" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor"
+									fill="none" stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path>
+									<path d="M12 9h.01"></path>
+									<path d="M11 12h1v4h1"></path>
+								</svg>
+							</div>
+							<div class="flex justify-between items-center">
+								<div class="grid items-center">
+									<h2 class="text-[18px] font-medium">Alerts</h2>
+									<h2 class="text-[24px] font-medium">233</h2>
+								</div>
+								<div class="grid items-center">
+									<h2 class="text-[18px] font-medium">Tasks</h2>
+									<h2 class="text-[24px] font-medium">233</h2>
+								</div>
+								<div class="grid items-center">
+									<h2 class="text-[18px] font-medium">Issues</h2>
+									<h2 class="text-[24px] font-medium">233</h2>
+								</div>
+								<div class="grid items-center">
+									<h2 class="text-[18px] font-medium">Notifications</h2>
+									<h2 class="text-[24px] font-medium">233</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class=" mx-5 p-5 bg-white">
+					<div class="flex items-center justify-between border-b gap-5">
+						<div class="grid gap-2 pb-5 border-transparent border-b-2 hover:border-[var(--borderColor)]">
+							<p class="text-[16px] font-medium">Domain 1</p>
+							<div class="flex gap-2">
+								<div class="">
+									<p class="text-gray-400 text-[14px]">Conver...</p>
+									<h2 class="font-medium text-[24px]">90%</h2>
+								</div>
+								<div class="" id="cchart1"></div>
+							</div>
+						</div>
+						<div class="grid gap-2 pb-5 border-transparent border-b-2 hover:border-[var(--borderColor)]">
+							<p class="text-[16px] font-medium">Domain 2</p>
+							<div class="flex gap-2">
+								<div class="">
+									<p class="text-gray-400 text-[14px]">Conver...</p>
+									<h2 class="font-medium text-[24px]">90%</h2>
+								</div>
+								<div class="" id="cchart2"></div>
+							</div>
+						</div>
+						<div class="grid gap-2 pb-5 border-transparent border-b-2 hover:border-[var(--borderColor)]">
+							<p class="text-[16px] font-medium">Domain 3</p>
+							<div class="flex gap-2">
+								<div class="">
+									<p class="text-gray-400 text-[14px]">Conver...</p>
+									<h2 class="font-medium text-[24px]">90%</h2>
+								</div>
+								<div class="" id="cchart3"></div>
+							</div>
+						</div>
+						<div class="grid gap-2 pb-5 border-transparent border-b-2 hover:border-[var(--borderColor)]">
+							<p class="text-[16px] font-medium">Domain 4</p>
+							<div class="flex gap-2">
+								<div class="">
+									<p class="text-gray-400 text-[14px]">Conver...</p>
+									<h2 class="font-medium text-[24px]">90%</h2>
+								</div>
+								<div class="" id="cchart4"></div>
+							</div>
+						</div>
+						<div class="grid gap-2 pb-5 border-transparent border-b-2 hover:border-[var(--borderColor)]">
+							<p class="text-[16px] font-medium">Domain 5</p>
+							<div class="flex gap-2">
+								<div class="">
+									<p class="text-gray-400 text-[14px]">Conver...</p>
+									<h2 class="font-medium text-[24px]">90%</h2>
+								</div>
+								<div class="" id="cchart5"></div>
+							</div>
+						</div>
+						<div class="grid gap-2 pb-5 border-transparent border-b-2 hover:border-[var(--borderColor)]">
+							<p class="text-[16px] font-medium">Domain 6</p>
+							<div class="flex gap-2">
+								<div class="">
+									<p class="text-gray-400 text-[14px]">Conver...</p>
+									<h2 class="font-medium text-[24px]">90%</h2>
+								</div>
+								<div class="" id="cchart6"></div>
+							</div>
+						</div>
+						<div class="grid gap-2 pb-5 border-transparent border-b-2 hover:border-[var(--borderColor)]">
+							<p class="text-[16px] font-medium">Domain 7</p>
+							<div class="flex gap-2">
+								<div class="">
+									<p class="text-gray-400 text-[14px]">Conver...</p>
+									<h2 class="font-medium text-[24px]">90%</h2>
+								</div>
+								<div class="" id="cchart7"></div>
+							</div>
+						</div>
+					</div>
+					<div class="pt-5">
+						<div id="chart-line"></div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	
+</body>
+
+</html>
